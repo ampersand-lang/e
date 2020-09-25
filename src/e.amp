@@ -1,0 +1,17 @@
+use e: std.io.print, eln: std.io.println;
+
+E :: true;
+e8 := u8;
+ee :: {\e: e8} => E;
+ee :: {e: e8} => !E;
+
+eee := for;
+eeee := -;
+eeeee := while;
+
+eeeee (ee \e), {
+  eee ((\e eeee \e) to \e), |_e| => {
+    e "{}", \e;
+  };
+  eln "";
+};
